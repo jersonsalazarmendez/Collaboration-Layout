@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Collaboration | Contacts</title>
+	<!-- Theme Color -->
+      	<meta name="theme-color" content="#68707b">
+     	<meta name="msapplication-navbutton-color" content="#68707b">
+      	<meta name="apple-mobile-web-app-status-bar-style" content="#68707b">
+	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.min.js"></script>
+	<link href="css/style.min.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<header class="container-fluid dark"> 
+		<nav>
+			<div class="nav-toggle"></div>
+			<ul class="dropdown-menu">
+				<li><a href="about-us.html">About</a></li>
+				<li><a href="about-us.html">Team</a></li>
+				<li><a href="about-us.html">News</a></li>
+				<li><a href="about-us.html">Awards</a></li>
+				<li><a href="about-us.html">Solutions</a></li>
+			</ul>
+		</nav>
+		<h1>Collaboration</h1>
+		<p class="slogan">Dynamic Development</p>
+	</header>
+	<section class="container-fluid orange contact">
+		<div class="container">
+			<div class="col-xs-12 col-md-10 col-md-offset-1"><h2>Contact Info</h2></div>
+			<article class="col-xs-12 col-md-5 col-md-offset-1 map">
+				<div class="google-maps">
+				    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78256.53413956959!2d0.05652707178090038!3d52.19765728854588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8709be1a78bb3%3A0x40e1ca8bbc1e330!2sCambridge%2C+Cambridgeshire%2C+UK!5e0!3m2!1sen!2s!4v1461555618058" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</article>
+			<article class="col-xs-12 col-md-5">
+				<p>Varius mi.um sociis natoque penati bus et magnisis parrient montes nascetur ridicumus. Nulla duisce feut malesuada odio. Morbi nunc odio gravidatcursec luctus a lorem. Maecenas tristique orci aem. Duis ultricies pharetra magnanec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet consectetuer adipiscing elit. Mauris fermentum dictum magna. Lorem ipsum dolor. Mauris fermentum dictum magna.</p>
+				<p>The Company Name Inc.<br>
+				9863 - 9867 Mill Road,<br>
+				Cambridge, MG09 99HT.</p>
+				<p>Freephone:+1 800 559 6580<br>
+				Telephone:+1 800 603 6035<br>
+				FAX:+1 800 889 9898 <br>
+				E-mail: mail@demolink.org</p>
+			</article>
+		</div>
+	</section>
+	<section class="container-fluid dark contact form-group">
+		<form class="container contact-form">
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1"><h2>Get In Touch</h2></div>
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+				<div class="container-fluid container-fix">
+					<div class="col-xs-12 error-msg"></div>
+					<div class="col-xs12 col-sm-4">
+						<input type="text" name="name" id="name" pattern=".{3,}" placeholder="Name:" title="At least 3 characters are required" required>
+					</div>
+					<div class="col-xs12 col-sm-4">
+						<input type="email" name="name" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Email:" title="name@example.com" required>
+					</div>
+					<div class="col-xs12 col-sm-4">
+						<input type="tel" name="phone" id="phone" pattern="[\+]?[0-9]{7,}" placeholder="Phone:" title="Invalid phone number" required>
+					</div>
+					<div class="col-xs-12">
+						<textarea rows="5" placeholder="Message:" data-error="Please fill this space" required></textarea>
+					</div>
+					<div class="col-xs-12 btn-group">
+						<button type="submit" id="form-submit" class="btn">Submit</button>
+						<button type="reset" value="Clear">Clear</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</section>
+	<script type="text/javascript">
+		$(function(){
+			setTimeout(function() {$('.navigation-menu li:last-child').addClass('active');}, 200);
+		});
+	</script>
+</body>
+</html>
