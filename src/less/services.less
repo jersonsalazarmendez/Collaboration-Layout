@@ -1,0 +1,145 @@
+/* variable */
+@color-textDos:#fff;
+@colo-text:#FCDBD4;
+@color-list-hover:#323a45;
+/* /. varialbles */
+/* Mixins */
+.title-style(){
+	font-family: 'Champagne';
+	font-style: normal;
+	font-size: 40px;
+}
+/* /.Mixins */
+
+/* services sec1 */
+.services-sec1{
+ 	width: 100%;
+ 	height: auto;
+
+ 	.services-title{
+ 		margin-top: 120px;
+ 		.title-style();
+ 	}
+
+ 	.list-services{
+ 		list-style-type: none;
+ 		color:@color-textDos;
+ 		margin-top: 80px;
+ 		margin-bottom: 90px;
+ 		padding-left: 39px;
+ 		p{
+ 			margin-right: 10px;
+ 		}
+ 		li{
+ 			margin-bottom: ~'-10px';
+ 		}
+ 		a{
+ 			text-decoration: none;
+ 			color: @color-textDos;
+ 		}
+ 		a:hover{ color:@color-list-hover; cursor: pointer; ; }
+ 	}
+
+ 	.subsection2 .servicesUno{
+ 		list-style: none;
+ 		margin-top: 100px;
+ 		margin-left: ~'-30px';	
+ 		color: @color-textDos;
+		.titulo-uno{
+				margin-top: 2px;
+			}
+ 		.texto-uno{
+				margin-top: 30px;
+				color:@colo-text;
+ 			}
+ 		.titulo-uno:hover{ color:@color-list-hover; cursor: pointer; }
+ 		}
+
+ 		.subsection2 .servicesDos{
+ 			margin-top: 120px;
+ 		}
+	/* responsive */
+	@media screen and(max-width:1080px) {
+		.list-services, .subsection2 .servicesUno{
+ 			text-align: center;	
+ 			margin-top: 50px;
+ 		}
+
+ 		.list-services{
+			margin-bottom: 15px;
+ 		}
+
+ 		.services-title{
+ 		margin-top: 80px;
+ 		}
+		
+		.subsection2 .servicesUno{
+			margin-bottom: 60px;
+		}
+	}
+
+	@media screen and (min-width:1350px) {
+		.textSerives{
+			margin-left: ~'-26px';
+		}
+		.textSerives2{
+			margin-left:~'-23px'; 
+		}
+	}
+
+	@media screen and (min-width:768px) and (max-width:770px) {
+		.services-title2{
+			line-height: 30px;
+		}
+	}
+	/* responsive */
+	@media screen and(max-width:420px) {
+ 		.services-title{
+ 		font-size: 30px;
+ 		line-height: 23px;
+ 		}
+
+	}
+}/* /.services sec1 */
+
+
+
+/* --- services - sec2 ----- */
+.services-sec2{
+
+	.services-texts{
+		p:last-child{
+			color:#68707b;
+		}
+	}
+
+	
+
+	.bottom{
+	margin-bottom: 100px;
+	color:#fff;
+	}
+	
+	/*responsive*/
+	@media screen and(max-width:420px) {
+ 		.services-title{
+ 		font-size: 30px;
+ 		line-height: 23px;
+ 		}
+
+	}
+
+	@media screen and(min-width:1280px) {
+ 		.circles{
+		margin-left: ~'-25px';
+		}
+
+		.circles2{
+			margin-left: ~'-5px';
+		}
+
+	}
+}
+/* --- /.services - sec2 ----- */
+
+

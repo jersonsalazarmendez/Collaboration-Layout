@@ -1,0 +1,43 @@
+@orange : #ed6d50;
+@main-color : #323a45;
+@dark-main-color : #68707b;
+
+.border-radius(@value:200px;){
+	-webkit-border-radius:@value;
+	-moz-border-radius:@value;
+	-ms-border-radius:@value;
+	-o-border-radius:@value;
+	border-radius: @value;
+}
+
+.border-s (){
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+
+.rounded(@radius:10px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  -ms-border-radius: @radius;
+   -o-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.opacity(@opacity: 0.5) {
+	-webkit-opacity: @opacity;
+  	-moz-opacity: @opacity;
+  	-ms-opacity: @opacity;
+  	-o-opacity: @opacity;
+  	opacity: @opacity;
+}
+
+
+//Breakpoints
+@screen-xs: 				~"(max-width: 767px)";
+@screen-sm-table:			~"(min-width: 768px) and (max-width: 991px)";
+@screen-md-desktop:			~"(min-width: 992px) and (max-width: 1024px)";
+@screen-lg-long-desktop:    ~"(min-width: 1200px)";
